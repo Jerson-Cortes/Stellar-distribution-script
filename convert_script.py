@@ -10,9 +10,11 @@ df = pd.read_csv("data/bright_gaia_stars_raw.csv")
 
 df['pc'] = 1000.0/df['parallax']
 
-coord = SkyCoord(ra=df['ra'], dec=df['dec'], distance=df['pc']*u.pc, unit=(u.degree, u.degree))
-df['x'] = coord.cartesian.x.value
-df['y'] = coord.cartesian.y.value
-df['z'] = coord.cartesian.z.value
+new_df = pd.DataFrame()
 
-df.to_csv('data/bright_gaia_stars.csv', index=False)
+coord = SkyCoord(ra=df['ra'], dec=df['dec'], distance=new_df['pc']*u.pc, unit=(u.degree, u.degree))
+new_df['x'] = coord.cartesian.x.value
+new_df['y'] = coord.cartesian.y.value
+new_df['z'] = coord.cartesian.z.value
+
+new_df.to_csv('data/bright_gaia_stars1.csv', index=False)

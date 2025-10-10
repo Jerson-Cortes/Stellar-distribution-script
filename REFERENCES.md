@@ -17,6 +17,9 @@
 - ADQL:
     https://www.cosmos.esa.int/web/gaia-users/archive/writing-queries
 
+- Gaia catalog definition
+    https://irsa.ipac.caltech.edu/data/Gaia/dr3/gaia_dr3_source_colDescriptions.html
+
 - Coordinates lib:
     https://astroquery.readthedocs.io/en/latest/gaia/gaia.html For change in units, for some reason it differed from Astropy docs where it seemed to imply it would infer the correct type/unit.
     https://docs.astropy.org/en/stable/coordinates/#overview-of-astropy-coordinates-concepts. Astropy docs.
