@@ -23,3 +23,9 @@
 - Coordinates lib:
     https://astroquery.readthedocs.io/en/latest/gaia/gaia.html For change in units, for some reason it differed from Astropy docs where it seemed to imply it would infer the correct type/unit.
     https://docs.astropy.org/en/stable/coordinates/#overview-of-astropy-coordinates-concepts. Astropy docs.
+
+- Star clasification:
+    https://en.wikipedia.org/wiki/Stellar_classification
+
+- Study citing RUWE < 1.25 for Gaia EDR3
+    https://arxiv.org/pdf/2404.14127
